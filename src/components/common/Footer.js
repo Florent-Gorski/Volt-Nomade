@@ -1,4 +1,9 @@
-import React from 'react';
-export default function Footer() {
-  return <footer className="bg-gray-800 text-white p-4 text-center">Footer - © 2024</footer>;
-}
+import React from "react";
+
+const Footer = () => (
+  <footer className="bg-gray-800 text-white py-8 text-center">
+    <p>&copy; 2024 Volt-Nomade – Tous droits réservés</p>
+  </footer>
+);
+
+export default Footer;
