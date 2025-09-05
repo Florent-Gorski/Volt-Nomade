@@ -17,8 +17,11 @@
     "react-router-dom": "^6.30.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
     "react-scripts": "5.0.1",
     "sharp": "^0.34.3",
+    "tailwindcss": "^4.1.13",
     "vite-plugin-imagemin": "^0.6.1",
     "workbox-cli": "^7.3.0"
   },
