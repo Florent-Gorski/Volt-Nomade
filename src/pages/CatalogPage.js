@@ -1,7 +1,7 @@
 import React from "react";
-import ProductCard from "../components/catalog/ProductionCard";
-import Loader from "./Loader";
-import useProducts from "./useProducts";
+import ProductCard from "../components/catalog/ProductCard";
+import Loader from "../components/common/Loader";
+import useProducts from "../useProducts";
 
 export default function CatalogPage() {
   const { products, loading } = useProducts();
