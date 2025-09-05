@@ -1,15 +1,15 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/common/Header";
-import Footer from "./components/common/Footer";
-import Loader from "./components/common/Loader";
+import Header from "./Header";
+import Footer from "./Footer";
+import Loader from "./Loader";
 
-// Lazy-loaded pages for speed
-const HomePage = React.lazy(() => import("./pages/HomePage"));
-const CatalogPage = React.lazy(() => import("./pages/CatalogPage"));
-const ProductPage = React.lazy(() => import("./pages/ProductPage"));
-const GuidesPage = React.lazy(() => import("./pages/GuidesPage"));
-const ContactPage = React.lazy(() => import("./pages/ContactPage"));
+// Lazy-loaded pages (paths fixed to match project structure)
+const HomePage = React.lazy(() => import("./HomePage"));
+const CatalogPage = React.lazy(() => import("./CatalogPage"));
+const ProductPage = React.lazy(() => import("./ProductPage"));
+const GuidesPage = React.lazy(() => import("./GuidesPage"));
+const ContactPage = React.lazy(() => import("./ContactPage"));
 
 function App() {
   return (
